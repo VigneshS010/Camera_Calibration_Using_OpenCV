@@ -13,19 +13,19 @@ square_size = 1.0
 MIN_VALID_CALIBRATION_IMAGES = 3 
 
 # Default image paths (adjust if your folder structure is different)
-left1 = "Im_L_1.png"
-left2 = "Im_L_2.png"
-left3 = "Im_L_3.png"
-left4 = "Im_L_4.png"
-left5 = "Im_L_5.png"
-left6 = "Im_L_6.png"
+# left1 = "Im_L_1.png"
+# left2 = "Im_L_2.png"
+# left3 = "Im_L_3.png"
+# left4 = "Im_L_4.png"
+# left5 = "Im_L_5.png"
+# left6 = "Im_L_6.png"
 
-right1 = "Im_R_1.png"
-right2 = "Im_R_2.png"
-right3 = "Im_R_3.png"
-right4 = "Im_R_4.png"
-right5 = "Im_R_5.png"
-right6 = "Im_R_6.png"
+# right1 = "Im_R_1.png"
+# right2 = "Im_R_2.png"
+# right3 = "Im_R_3.png"
+# right4 = "Im_R_4.png"
+# right5 = "Im_R_5.png"
+# right6 = "Im_R_6.png"
 
 objp = np.zeros((np.prod(chessboard_size), 3), np.float32)
 objp[:, :2] = np.indices(chessboard_size).T.reshape(-1, 2)
